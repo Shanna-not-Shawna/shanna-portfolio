@@ -1,0 +1,69 @@
+h1 {
+    background-color: blue;
+    font-size: 230%;
+    color: white;
+    /* padding: 5px 5px 5px 66px; */
+}
+
+header {
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    position: relative;
+    /* padding: 15px 0;
+    margin-right: 55px; */
+}
+
+li {
+    display: inline-flex;
+    position: relative;
+}
+
+a {
+    font-size: 130%;
+    color: red;
+    display: inline-block;
+    /* padding: 15px 15px; */
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 69%;
+}
+
+aside {
+    flex-basis: 30%;
+}
+
+article {
+    flex-basis: 70%;
+    /* padding: 0px 0px 0px 15px; */
+}
+
+aside h2 {
+   border-right: 3px;
+   border-right-color: blue;
+   border-right-style: solid;
+   /* padding: 15px; */
+}
+
+#contactMeLinks {
+    align-items: center;
+}
+
+.card1 {
+    width: 300px;
+}
+
+.card1 img {
+    max-width: 200px;
+}
+
+.cards {
+
+}
