@@ -19,12 +19,10 @@ nav {
 
 li {
     display: inline-flex;
-    position: relative;
 }
 
 a {
     font-size: 130%;
-    color: red;
     display: inline-block;
     /* padding: 15px 15px; */
 }
