@@ -72,17 +72,28 @@ body {
 article {
     display: flex;
     flex: 1 0 50%;
-    /* flex-basis: 70%; */
     padding-left: 2%;
 }
 
-#contactMeLinks {
-    align-items: center;
-}
 
 #card1 {
     flex: 1 0 100%;
 
+}
+
+#card1 span {
+    display: none;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    right: 0;
+    background: #1FBB66;
+    color: black;
+    text-align: center;
+}
+
+#card1:hover span {
+    display: block;
 }
 
 img {
@@ -92,6 +103,22 @@ img {
 .cards {
    flex: 1 0 50%;
 }
+
+.cards span {
+    display: none;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    right: 0;
+    background: #1FBB66;
+    color: black;
+    text-align: center;
+}
+
+.cards:hover span {
+    display: block;
+}
+
 
 .cards img {
     max-height: 250px;
@@ -105,7 +132,9 @@ img {
     .cards {
         flex: 1 0 100%;
     }
-    
+    #contactMeLinks {
+        flex-direction: column;
+    }
 
 }
   
