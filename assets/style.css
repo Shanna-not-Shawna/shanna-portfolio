@@ -3,18 +3,20 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-
 h1 {
     font-size: 230%;
-    color: white;
-    /* padding: 5px 5px 5px 66px; */
+    color: #1FBB66;
+    padding: 2% 2% 2% 2%;
+}
+
+h2 {
+    font-size: 100%;
 }
 
 header {
     background-color: #1d1f23;
     display: flex;
-    align-items: center;
+    
 }
 
 nav {
@@ -74,16 +76,13 @@ article {
     padding-left: 2%;
 }
 
-.left-side-header h2 {
-    
-}
-
 #contactMeLinks {
-    /* align-items: center; */
+    align-items: center;
 }
 
 #card1 {
     flex: 1 0 100%;
+
 }
 
 img {
@@ -93,3 +92,20 @@ img {
 .cards {
    flex: 1 0 50%;
 }
+
+.cards img {
+    max-height: 250px;
+}
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+    .cards {
+        flex: 1 0 100%;
+    }
+    
+
+}
+  
