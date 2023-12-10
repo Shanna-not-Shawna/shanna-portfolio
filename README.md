@@ -8,9 +8,7 @@ This is a portfolio website to showcase some of my current work from the coding 
 
 
 
-Here is the live website. [Check it out!](https://shanna-not-shawna.github.io/shanna-portfolio/)
-
-![Screenshot of the Horiseon webpage](./assets/images/screencapture.png)
+Website is currently down for re-furbishment. Will update link and screenshot when completed.
 
 ## How to Contribute
 
