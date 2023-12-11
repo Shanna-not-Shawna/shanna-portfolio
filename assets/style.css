@@ -21,8 +21,8 @@ header {
 
 nav {
     position: relative;
-    /* padding: 15px 0;
-    margin-right: 55px; */
+    padding: 15px 0;
+    margin-right: 55px;
 }
 
 li {
@@ -32,7 +32,7 @@ li {
 a {
     font-size: 130%;
     display: inline-block;
-    /* padding: 15px 15px; */
+    padding: 15px 15px;
 }
 
 .hero-image {
@@ -63,7 +63,7 @@ body {
     border-right-color: #1FBB66;
     border-right-style: solid;
     display: flex;
-    flex: 1 0 20%;
+    flex: .5 0 5%;
     justify-content: flex-end;
     padding-right: 2%;
     margin-bottom: 2%;
